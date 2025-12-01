@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PyKotorGL
+Version: 1.7
+Summary: A Python library that can render most modules from the game Knights of the Old Republic and its sequel.
+Author: NickHugi
+Maintainer: th3w1zard1
+Maintainer-email: th3w1zard1 <halomastar@gmail.com>
+License: LGPL-3.0-or-later License
+Project-URL: Homepage, https://github.com/NickHugi/PyKotor
+Project-URL: Documentation, https://github.com/NickHugi/PyKotor/blob/master/README.md
+Project-URL: Repository, https://github.com/NickHugi/PyKotor.git
+Project-URL: Issues, https://github.com/NickHugi/PyKotor/issues
+Keywords: kotor,library,holocron,toolset,pykotor,editor,holopatcher,tslpatcher
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ply<4,>=3.11
+Provides-Extra: font
+Requires-Dist: Pillow>=9.5; extra == "font"
+Provides-Extra: secure-xml
+Requires-Dist: defusedxml~=0.7; extra == "secure-xml"
+Provides-Extra: encodings
+Requires-Dist: charset-normalizer<3.4,>=2.0; extra == "encodings"
+
+A Python library that can render most modules from the game Knights of the Old Republic and its sequel.
